@@ -1,19 +1,55 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-div {
-    border: 1px solid black;
-    margin: 100px 150px 100px 80px;
-    background-color: lightblue;
+body, div, h1, h2, p {
+	margin: 10;
+	padding: 5;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-</style>
-</head>
-<body>
 
-<h2>Using the margin shorthand property</h2>
+h2 {
+  text-align: center;
+  font-family: normal;
+  color: red;
+  font-size: 45px;
+}
 
-<div>This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+p {
+  text-align: center;
+  font-family: normal;
+  color: white;
+  font-size: 30px;
+}
 
-</body>
-</html>
+h1 {
+  text-align: center;
+  font-family:normal;
+  color: red;
+  font-size: 60px;
+}
+
+
+img {
+  display:block;
+  margin: auto;
+}
+
+html {
+  background-color: black;
+}
+
+footer p{
+  font-size: 15px;
+}
+
+#One {
+  color: ffa3b3;
+}
+
+#Two {
+  color: ffa3b3;
+}
+
+#Three {
+  color: ffa3b3;
+}
